@@ -1,0 +1,18 @@
+.card-container {
+	background-color: rgb(19, 112, 165);
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	margin: 10px auto;
+	padding: 15px;
+	width: 20%;
+}
+
+.card-container:hover {
+	background-color: rgb(56, 124, 163);
+	transform: scale(1.05);
+}
+
+.card-container > img {
+	max-width: 100%;
+}
